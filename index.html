@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>The Weather App</h1>
+        <img src="css/Content/thermostat-white-48dp.svg">
+        <!-- Form to accept location name. -->
+        <form id="getNameForm">
+            <input type="text" name="name" id="name" 
+            placeholder="Enter the name of a place." required>
+            <input type="submit" value="Submit">
+        </form>
+    </header>
+    <main>
+        <div id="content">
+            <h1 id="placeName"></h1>
+            <ul id="dataList">
+                <li id="temp" class="currentTemp"></li>
+                <li id="feels_like" class="currentTemp"></li>
+                <li id="temp_min" class="tempRange"></li>
+                <li id="temp_max" class="tempRange"></li>
+                <li id="pressure"></li>
+                <li id="humidity"></li>
+            </ul>
+        </div>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
