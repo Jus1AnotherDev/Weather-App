@@ -68,13 +68,12 @@ main {
 #placeName {
     margin: 0;
     padding: 0;
-    padding-top: 10vh;
+    padding-top: 5vh;
 }
 
 #dataList {
     margin: 0;
     padding: 0;
-    padding-top: 5vh;
     list-style: none;
     font-size: x-large;
 }
