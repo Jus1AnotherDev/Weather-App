@@ -13,12 +13,19 @@ body {
     font-weight: bold;
 }
 
+#content {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color:rgb(0, 0, 0, 0.5);
+    color: white;
+}
+
 header {
     margin: 0;
     padding: 0;
     padding-top: 1vh;
     padding-bottom: 1vh;
-    height: 10vh;
     background-color: rgb(0, 0, 0);
     color: white;
 }
@@ -54,14 +61,6 @@ header h1 {
 }
 
 main {
-    margin: 0;
-    padding: 0;
-    height: 80vh;
-    background-color:rgb(0, 0, 0, 0.5);
-    color: white;
-}
-
-#content {
     margin: 0;
     padding: 0;
 }
